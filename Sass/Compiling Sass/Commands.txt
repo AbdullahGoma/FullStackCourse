@@ -1,0 +1,11 @@
+node-sass Styles.scss styles.css
+
+cls
+
+node-sass --watch styles.scss styles.css
+
+
+node-sass --watch Sass/ --output stylee/
+
+
+node-sass --watch styles.scss styles.css --output-style compressed

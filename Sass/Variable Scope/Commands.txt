@@ -1,0 +1,14 @@
+node-sass Styles.scss styles.css
+
+cls
+
+
+
+cd C:\Users\asm\Desktop\Full Stack Course\Sass
+node-sass --watch styles.scss style.css
+
+
+node-sass --watch Sass/ --output stylee/
+
+
+node-sass --watch styles.scss styles.css --output-style compressed

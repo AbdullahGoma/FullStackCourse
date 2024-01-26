@@ -1,0 +1,13 @@
+body {
+  font-family: sans-serif;
+  background: #2041E6;
+}
+.color {
+  color: white;
+}
+.thin {
+  font-weight: lighter;
+}
+h1 ,h2 {
+  font-size: 44px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+    <head>
+          <meta charset="utf-8">
+          <title>The World</title>
+          <link rel="stylesheet" href="https://fonts.google.com/specimen/Roboto?query=roboto">
+          <link rel="stylesheet" href="Forms.css">
+    </head>
+    <body>
+      <h1>Regester an account.</h1>
+      <form action="index.html" method="post" autocomplete="off">
+        <div class="input-group">
+		  <!-- The value in "for" must equal to the value in id like "email" -->
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" required>
+        </div>
+        <div class="input-group">
+          <label>Username</label>
+          <input type="text" name="Username" required>
+        </div>
+        <div class="input-group">
+          <label>Password</label>
+          <input type="password" name="password" required>
+        </div>
+        <div class="input-group">
+          <label>Confirm Password</label>
+          <input type="password" name="confirm_password" required>
+        </div>
+        <div class="checkbox-group">
+          <input type="checkbox" required>
+          <label>I agree to and have read the <a href="#">terms of service.</a></label>
+        </div>
+        <input type="submit" name="submit" value="Regester">
+
+      </form>
+
+    </body>
+
+
+</html>

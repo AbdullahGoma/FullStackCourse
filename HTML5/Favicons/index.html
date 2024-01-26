@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:500,800&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+        <title>HTML5</title>
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+    <body>
+
+        <!-- https://validator.w3.org/nu/#textarea -->
+        <!-- https://realfavicongenerator.net/favicon_result?file_id=p1h6775ioc1e3d1nfa1a8ed2vf6 -->
+        <h1>Click on the image to see the city details in the chrome console</h1>
+
+        <article>
+          <figure data-name="Detroit" data-pope="673,104" class="img" onclick="logCityData(this)"></figure>
+          <figure data-name="Los Angels" data-pope="4 Million" class="img" onclick="logCityData(this)"></figure>
+          <figure data-name="Las Vegas" data-pope="641,676" class="img" onclick="logCityData(this)"></figure>
+          <figure data-name="Madrid" data-pope="6.55 Million" class="img" onclick="logCityData(this)"></figure>
+          <figure data-name="Miami" data-pope="463,347" class="img" onclick="logCityData(this)"></figure>
+          <figure data-name="Montreal" data-pope="1.78 Million" class="img" onclick="logCityData(this)"></figure>
+          <figure data-name="New York" data-pope="8.623 Million" class="img" onclick="logCityData(this)"></figure>
+          <figure data-name="San Francisco" data-pope="884,363" class="img" onclick="logCityData(this)"></figure>
+
+        </article>
+
+
+
+        <script type="text/javascript">
+            function logCityData(elem) {
+              console.log("====================");
+              console.log("Name of country: " + elem.dataset.name);
+              console.log("Number of Population: " + elem.dataset.pope);
+            }
+        </script>
+        <!-- <script type="text/javascript">
+            function getCode(elem) {
+              console.log(elem.dataset.secretecode);
+              console.log(elem.dataset.notsecretecode);
+            }
+        </script> -->
+
+    </body>
+</html>

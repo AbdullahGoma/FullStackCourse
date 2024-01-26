@@ -1,0 +1,65 @@
+
+
+
+$theme-primary: #1843BE;
+// $theme-secondary: #1C3C99;
+// $theme-secondary: darken($theme-primary,10%);
+// $theme-secondary: complement($theme-primary);
+$theme-secondary: darken($theme-primary,6%);
+
+@function px-to-rem($size) {
+  $value: $size / 16px;
+  @return #{$value}rem;
+}
+
+@function rem-to-px($size) {
+  $value: ($size * 16)/1rem;
+  @return #{$value}px;
+}
+
+$padding: 22px;
+
+
+html {
+  font-size: 100%;
+  @media screen and (max-width: 1400px) { font-size: 86% }
+  @media screen and (max-width: 1200px) { font-size: 70% }
+  @media screen and (max-width: 1000px) { font-size: 56% }
+  @media screen and (max-width: 800px) { font-size: 40% }
+}
+
+
+body {
+  margin: 0;
+  background: $theme-secondary;
+}
+
+header {
+   padding: 62px;
+   background-color: $theme-primary;
+   h1 {
+     color: white;
+     text-align: center;
+     cursor: default;
+     transition: all 1s;
+     font: {
+       family: 'Stalemate' ,cursive;
+       size: px-to-rem(142px);
+       weight: normal;
+     }
+   }
+ }
+
+h2 {
+  background-color: white;
+  color: $theme-primary;
+  padding: $padding 0;
+  margin-top: 0;
+  text-align: center;
+  font: {
+    family: 'Stalemate' ,cursive;
+    // size: 102px;
+    size: rem-to-px(6.375rem);
+    weight: normal;
+  }
+}

@@ -1,0 +1,19 @@
+html { font-size: 150%; }
+
+body, button, input {
+    font-family: 'Oswald', sans-serif;
+}
+
+body { margin: 80px 160px 0; }
+h1 {
+  cursor: default;
+  user-select: none;
+}
+
+input {
+  padding: 14px;
+  padding-right: 360px;
+  border: 1px solid rgba(45,45,45,.3);
+  font-size: 32px;
+
+}

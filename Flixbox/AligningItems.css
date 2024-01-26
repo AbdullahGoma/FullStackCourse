@@ -1,0 +1,33 @@
+
+
+body {
+  font-family: 'Days One', sans-serif;
+  margin: 0;
+  /* background-color: limegreen; */
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* min-height: 100vh; */
+  align-items: stretch;
+  align-items: flex-start;
+  align-items: flex-end;
+  align-items: center;
+
+}
+
+h1, h2, h3 { font-weight: normal;}
+
+h1 {
+  text-transform: uppercase;
+}
+
+div {
+  background-color: limegreen;
+  border-radius: 14px;
+  width: 320px;
+  padding: 10px;
+  margin: 32px;
+  color: white;
+}
+
+div:nth-of-type(2) { align-self: flex-start;}

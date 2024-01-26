@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:500,800&display=swap" rel="stylesheet">
+        <title>HTML5</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body onload="refresh();">
+
+        <!-- Saving theme in own computer -->
+
+        <h1 id="welcome" class="hide">Welcome Back, <span id="user-name"></span></h1>
+
+        <form action="" method="post" id="user" onsubmit="updateUser(event);" autocomplete="off">
+          <h2>What's your name?</h2>
+          <input type="text" name="name" placeholder="Your name here.">
+
+          <h2>What's your favorite color?</h2>
+          <input type="color" name="color" value="#ffffff" id="col">
+
+          <br>
+          <button type="submit" name="update" onclick="updateUser(event);">Update</button>
+          <button type="button" class="hide" id="delete-button" onclick="deleteAll();">Delete Data</button>
+
+        </form>
+
+
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+        <script src="script.js" type="text/javascript"></script>
+
+    </body>
+</html>

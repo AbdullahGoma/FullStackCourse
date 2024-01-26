@@ -1,0 +1,39 @@
+
+
+body {
+  font-family: 'Days One', sans-serif;
+  margin: 50px 120px 32px;
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+}
+
+h1 {
+  background-color: crimson;
+  color: white;
+  padding: 8px;
+  margin: 12px;
+  border-radius: 4px;
+}
+
+/* There a big defference between inline-block and flex
+h1 {
+display: inline-block;
+} */
+
+header {
+  margin-bottom: 10px;
+  border-radius: 4px;
+  background-color: #F3F3F3;
+  display: flex;
+  justify-content: flex-start;
+  justify-content: flex-end;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+header:nth-child(2) { justify-content: center; }
+header:nth-child(3) { justify-content: space-around;; }
+header:nth-child(4) { justify-content: flex-start;; }
+header:nth-child(5) { justify-content: flex-end;; }

@@ -1,0 +1,19 @@
+
+
+h1 {
+  text-align: center;
+}
+div {
+  background-image: url("https://png.pngtree.com/png-vector/20191121/ourmid/pngtree-blue-bird-vector-or-color-illustration-png-image_2013004.jpg");
+  background-size: cover;
+  width: 1000px;
+  height: 600px;
+  margin: 60px auto;
+  transition: transform 1s; /*if it is smaller, jackhamer will happens*/
+}
+
+div:hover {
+  transform: scale(1.1); /*if it is smaller, jackhamer will happens*/
+  transform: translate(120px,100px);
+  /* transform: rotate(20deg); */
+}

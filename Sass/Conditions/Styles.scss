@@ -1,0 +1,69 @@
+
+
+
+$theme-primary: #F1245F;
+$padding: 22px;
+
+@function px-to-rem($size) {
+  $value: $size / 16px;
+  @return #{$value}rem;
+}
+
+
+
+
+body {
+  margin: 0;
+  font-family: 'Stalemate',cursive;
+  background-color: $theme-primary;
+}
+
+header {
+   padding: 62px;
+   h1 {
+     color: white;
+     text-align: center;
+     cursor: default;
+     transition: all 1s;
+     position: relative;
+     z-index: 10px;
+
+     font: {
+       family: 'Stalemate' ,cursive;
+       size: px-to-rem(142px);
+       weight: normal;
+     }
+   }
+}
+
+@mixin nudge($dir,$amount) {
+  @if $dir == "top" {
+    bottom: $amount;
+  }@else if $dir == "bottom" {
+    top: $amount;
+  }@else if $dir == "left" {
+    right: $amount;
+  }@else if $dir == "right" {
+    left: $amount;
+  }@else {
+    @warn "Incorrect argument passed into nudge.";
+  }
+}
+
+
+h1:last-child {
+  @include nudge("top",280px);
+  @include nudge("left",20px);
+  z-index: 0;
+  opacity: .1;
+  transition: all .6s;
+}
+
+h1:first-child:hover {
+  transform: scale(.7);
+  opacity: .1;
+}
+h1:first-child:hover + h1 {
+  transform: scale(.9);
+  opacity: 1;
+}

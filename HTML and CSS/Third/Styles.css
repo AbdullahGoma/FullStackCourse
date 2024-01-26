@@ -1,0 +1,62 @@
+body {
+  font-family: 'Jomolhari',serif;
+  background: black;
+}
+.color {
+  color: white;
+}
+.thin {
+  font-weight: normal;
+}
+p {
+  font-size: 20px;
+  text-align: center;
+}
+h1 ,h2 ,h3 {
+  font-size: 48px;
+  text-align: center;
+}
+button{
+  font-family: 'Jomolhari',serif;
+  margin: 40px auto 140px;
+  display: block;
+  font-size: 20px;
+  border: none;
+  padding: 20px 40px;
+  background: #222;
+  color: white;
+  border-radius: 5px;
+}
+button:hover {
+  opacity: .8;
+}
+#main {
+  width: 80%;
+  margin: 40px auto 140px;
+}
+img {
+  height: 100%;
+  margin: 40px auto 140px;
+  display: block;
+}
+a {
+  color: blue;
+}
+* {
+  font-weight: normal;
+}
+h1.highlight {
+  color: lime;
+  background-color: #333;
+}
+/* select h1 in div only */
+div h1{
+  font-size: 40px;
+}
+/* select first child of h1 */
+h1:first-child {
+  text-transform: uppercase;
+}
+h3:last-child, p{
+  color: blue;
+}

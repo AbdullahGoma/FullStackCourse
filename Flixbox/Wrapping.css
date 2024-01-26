@@ -1,0 +1,30 @@
+
+
+body {
+  font-family: 'Days One', sans-serif;
+  margin: 50px 120px 32px;
+  border-radius: 4px;
+}
+
+h1, h2, h3 { font-weight: normal; }
+
+main {
+  background-color: orange;
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-wrap: wrap-reverse; */
+  /* flex-direction: row-reverse; */
+  flex-direction: column;
+  justify-content: center;
+  max-height: 1000px;
+}
+
+h2 {
+  background-color: white;
+  color: orange;
+  border-radius: 12px;
+  height: 100px;
+  width: 100px;
+  padding: 12px;
+  margin: 18px;
+}

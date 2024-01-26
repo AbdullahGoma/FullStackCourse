@@ -1,0 +1,34 @@
+
+
+$theme-primary: #F1245F;
+$padding: 22px;
+
+@function px-to-rem($size) {
+  $value: $size / 16px;
+  @return #{$value}rem;
+}
+
+
+
+
+body {
+  margin: 0;
+}
+
+header {
+   padding: 62px;
+   background-color: #F1245F;
+   * {
+     color: white;
+     text-align: center;
+     margin: .2em 0;
+     cursor: default;
+     transition: all 1s;
+
+     font: {
+       family: 'Stalemate' ,cursive;
+       size: px-to-rem(142px);
+       weight: normal;
+     }
+   }
+}

@@ -1,0 +1,15 @@
+
+
+
+body {
+  font-family: 'Playfair Display', serif;
+  height: 600vh;
+}
+
+h1 {
+  font-weight: normal;
+  /* position: fixed; using with nav bar  */
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}

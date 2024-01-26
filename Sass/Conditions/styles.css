@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: 'Stalemate',cursive;
+  background-color: #F1245F; }
+
+header {
+  padding: 62px; }
+  header h1 {
+    color: white;
+    text-align: center;
+    cursor: default;
+    transition: all 1s;
+    position: relative;
+    z-index: 10px;
+    font-family: 'Stalemate' ,cursive;
+    font-size: 8.875rem;
+    font-weight: normal; }
+
+h1:last-child {
+  bottom: 280px;
+  right: 20px;
+  z-index: 0;
+  opacity: .1;
+  transition: all .6s; }
+
+h1:first-child:hover {
+  transform: scale(0.7);
+  opacity: .1; }
+
+h1:first-child:hover + h1 {
+  transform: scale(1.4);
+  opacity: 1; }

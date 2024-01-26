@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>JavaScript In The WEB</title>
+        <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+         <link rel="stylesheet" href="QuerySelector.css">
+    </head>
+    <body>
+
+        <h1>JavaScript In The Web!</h1>
+        <h1 class="theme">JavaScript In The Web!!</h1>
+        <h1 class="theme">JavaScript In The Web!!!</h1>
+        <h2>JavaScript!</h2>
+        <h2 class="warning">JavaScript!!</h2>
+        <h2 id="footer-header">JavaScript!!!</h2>
+        <button type="button" name="button" onclick="togglevisibility();">Toggle Display</button>
+
+        <script type="text/javascript">
+        //let element = document.querySelector(".theme");  //. for class
+        //let element = document.querySelector("#footer-header"); //# for id
+        //console.log(element);
+
+
+        let isVisible = true;
+        //let elements = document.getElementsByClassName("header");
+        //let elements = document.querySelectorAll(".theme , .warning, #footer-header");
+        let elements = document.querySelectorAll("h1 ,h2");
+        elements = Array.from(elements);
+
+
+        function togglevisibility() {
+          isVisible = !isVisible;
+          let visibility = isVisible ? "visible" : "hidden";
+          elements.forEach((item, i) => {
+            item.style.visibility = visibility;
+          });
+        }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,57 @@
+
+h1 {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: crimson;
+  text-align: center;
+  color: white;
+  /* 20 top 10 left,right 5 bottom */
+  padding: 5px 5px 5px;
+  /* display: inline-block; */
+  color: blue;
+  background-color: transparent;
+  border-top: 2px solid;
+  border: 6px solid crimson;
+  border-radius: 15000px;
+  margin: 10px 0;
+  width: 400px;
+  /* margin-right: 0 !important; */
+  margin-left: auto;
+  margin: 22px auto;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+strong {
+  font-weight: 700;
+}
+
+nav {
+  background-color: #ED266B;
+}
+
+nav ul {
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li a {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 300;
+  text-decoration: none;
+  color: white;
+  padding: 16px 38px;
+  margin-right: 105px;
+}
+
+nav li a:hover {
+  background-color: #B00E50;
+
+}

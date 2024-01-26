@@ -1,0 +1,30 @@
+node-sass Styles.scss style.css
+
+cls
+
+
+
+cd C:\Users\asm\Desktop\Full Stack Course\Travel Forest         <---------
+
+node-sass --watch styles.scss style.css
+
+node-sass --watch sass/ --output stylesheets/                 <-------
+
+
+node-sass --watch Sass/ --output stylee/
+
+
+node-sass --watch styles.scss styles.css --output-style compressed
+
+
+https://bennettfeely.com/clippy/
+
+https://startupsum.com/
+
+https://fontawesome.com/sessions/sign-in?next=%2Fkits%2F8079e19198%2Fsetup
+
+
+https://htmlcolorcodes.com/
+
+https://fonts.google.com/specimen/Questrial?query=Questrial+
+

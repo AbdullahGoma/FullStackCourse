@@ -1,0 +1,30 @@
+button {
+  outline: none;
+  border: none;
+  padding: 12px 144px;
+  border-radius: 10000px;
+  color: #F1245F;
+  background-color: white;
+  margin: 0 auto;
+  display: block;
+  width: max-content;
+  font-family: 'Stalemate' ,cursive;
+  font-size: 52px;
+  transition: all .4s; }
+  button:hover {
+    transform: scale(1.2); }
+
+body {
+  margin: 0; }
+
+header {
+  padding: 62px;
+  background-color: #F1245F; }
+  header h1 {
+    color: white;
+    text-align: center;
+    cursor: default;
+    transition: all 1s;
+    font-family: 'Stalemate' ,cursive;
+    font-size: 8.875rem;
+    font-weight: normal; }
