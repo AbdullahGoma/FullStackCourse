@@ -1,4 +1,0 @@
-cd C:\Users\asm\Desktop\Full Stack Course\Get It Down\Me
-
-node-sass --watch sass/ --output stylesheets/
-
